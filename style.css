@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: gray;
+    text-align:right;
+    border-bottom: 4px solid rgb(197, 14, 197);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+}
+
+header ul li a{
+    text-decoration:none;
+    color: white;
+}
+header ul li a:hover{
+    text-decoration:none;
+    color: rgb(197, 14, 197);
+}
+header ul li a:active{
+    text-decoration:none;
+    color: rgb(197, 14, 197);
+}
+
+
+header ul{
+    list-style: none;
+    display:inline-flex;
+}
+
+header ul li{
+    
+    margin: 1rem;
+   
+    padding: 15px;
+    
+}
+.clarusway_title{
+    display: inline-flex;
+    margin-left: 3rem;
+    color: white;
+    font-size:2rem;
+}
+.clarusway_title span {
+    margin-right:10px;
+}
+
+
+
+#main_title{
+    text-align:center
+}
+
+#nav_title{
+    text-align:left;
+    color: white;
+
+}
+header span{
+    color:rgb(197, 14, 197);
+    
+}
+main{
+    background-image: url("./images/showcase.jpg");
+    height: 600px;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    display:inline-flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:center;
+
+}
+
+section{
+    display:flex;
+    text-align:center;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:2rem 0 2rem 0;
+}
+footer{
+    background-color: dimgray;
+    text-align:center;
+    height: 30%;
+    padding: 2rem 0 2rem 0;
+}
+footer p{
+    color:white;
+}
+#sunscript{
+    background-color:rgb(44, 43, 43);
+}
+#subscribe{
+    display:flex;
+    background-color:dimgray;
+    justify-content:space-between;
+    color:white;
+    padding:1rem;
+}
+
+#subscribe button{
+    background-color:orangered;
+    color:white;
+    padding:10px;
+}
+#subscribe input{
+    
+    padding:10px;
+}
+.logo{
+    width: 30%;
+}
+main h1{
+    color:white;
+    font-size:4rem;
+
+}
+main p{
+    
+    color:white;
+    text-align:center;
+    font-size:22px;
+  
+}
+footer img{
+    padding-top: 1rem;
+}
+section h3{
+    padding-top: 1rem;
+}
+
+section p{
+    padding-top: 1rem;
+    font-size: 20px;
+}
+.dark{
+    background-color:dimgray;
+    color:white;
+}
+.about{
+    margin: 0 1rem 0 1rem  ;
+    display: flex;
+    height: 600px;
+
+
+}
+#about_title{
+    text-align: left;
+    
+    
+}
+#about_title{
+    margin: 0;
+   
+}

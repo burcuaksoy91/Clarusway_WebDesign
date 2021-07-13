@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color:dimgray;
+    text-align:right;
+    border-bottom: 4px solid rgb(197, 14, 197);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+}
+
+header ul li a{
+    text-decoration:none;
+    color: white;
+}
+header ul li a:active{
+
+    text-decoration:none;
+    color: rgb(197, 14, 197);
+}
+header ul li a:hover{
+
+    text-decoration:none;
+    color: rgb(197, 14, 197);
+}
+header ul{
+    list-style: none;
+    display:inline-flex;
+}
+
+header ul li{
+    
+    margin: 1rem;
+   
+    padding: 15px;
+    
+}
+.clarusway_title{
+    display: inline-flex;
+    margin-left: 3rem;
+    color: white;
+    font-size:2rem;
+}
+.clarusway_title span {
+    margin-right:10px;
+}
+
+
+
+#nav_title{
+    text-align:left;
+    color: white;
+
+}
+header span{
+    color:rgb(197, 14, 197);
+}
+
+footer{
+    background-color: dimgray;
+    text-align:center;
+    height: 30%;
+    padding: 2rem 0 2rem 0;
+}
+footer p{
+    color:white;
+}
+
+#subscribe{
+    display:flex;
+    background-color:dimgray;
+    justify-content:space-between;
+    color:white;
+    padding:1rem;
+}
+
+#subscribe button{
+    background-color:orangered;
+    color:white;
+    padding:10px;
+}
+#subscribe input{
+    
+    padding:10px;
+}
+.logo{
+    width: 30%;
+}
+
+
+footer img{
+    padding-top: 1rem;
+}
+
+.dark{
+    background-color:dimgray;
+    color:white;
+    padding:1rem;
+    height:fit-content;
+    
+}
+.about{
+    margin: 2rem ;
+    display: flex;
+    height: 600px;
+    
+ 
+
+}
+#about_title{
+    text-align: left;
+
+}
+
+section p{
+    margin: 1rem 2rem 1rem 0;
+    text-align:left;
+    font-size: 22px;
+
+}
+
+.right{
+    background-color:dimgray;
+    height:fit-content;
+    width:40%;
+    padding:2rem 1rem 2rem 2rem;
+    color:white;
+}
+.left{
+    width: 80%;
+}
